@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Outlet - Akhil Singh Chib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Outlet - Dogri Zaika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Dogri Zaika</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#order">Order Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Dogri Zaika</h2>
+            <p>Experience the authentic flavors of Dogri cuisine. Our dishes are made with the finest ingredients and traditional recipes.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            
+            <!-- Dish 1 -->
+            <div class="menu-item">
+                <img src="image 1.png" alt="Dish 1" class="menu-image">
+                <div class="menu-description">
+                    <h3>Gheur</h3>
+                    <p>Gheur is an authentic, traditional dogri recipe from Jammu and Kashmir. Dogri people usually prepare gheur when new bride enters the house for the very first time or someone who comes home after very long time. It is like a welcome dish.</p>
+                </div>
+            </div>
+            
+            <!-- Dish 2 -->
+            <div class="menu-item">
+                <img src="image 2.png" alt="Dish 2" class="menu-image">
+                <div class="menu-description">
+                    <h3>Maani</h3>
+                    <p>Mani is a curry made with raw or half ripened mangoes, usually served with steamed boiled rice. Most of the regions have their own way of preparing Mani using different ingredients. Here is the recipe of Mahni from our place Jammu (Jammu & Kashmir) & is pronounced as Mani in Dogri accent.</p>
+                </div>
+            </div>
+            
+            <!-- Dish 3 -->
+            <div class="menu-item">
+                <img src="image 3.png" alt="Dish 3" class="menu-image">
+                <div class="menu-description">
+                    <h3>Kimb</h3>
+                    <p>Kimb, called Citron or citrus medica, is a fruit cultivated in tropical regions.</p>
+                </div>
+            </div>
+            
+            <!-- Dish 4 -->
+            <div class="menu-item">
+                <img src="image 4.png" alt="Dish 4" class="menu-image">
+                <div class="menu-description">
+                    <h3>Sund</h3>
+                    <p>‘Sund’, which is very similar to ‘Panjiri’, is very popular in the Jammu region because of its nutritional and medicinal properties.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Hey! Our delicious food is waiting for you. We are always near to you with fresh food. Our job is to fill your tummy with delicious food!</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p>Address: Street 28 B Greater Kailesh, Jammu</p>
+            <p>Phone: 7051531811</p>
+            <p>Email: akhilchib7777@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Order Online Section -->
+    <section id="order">
+        <div class="container">
+            <h2>Order Online</h2>
+            <form action="submit_order.php" method="POST">
+                <!-- Personal Information -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Address Information -->
+                <div class="form-group">
+                    <label for="address">Delivery Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <!-- Menu Selection -->
+                <div class="form-group">
+                    <label for="dish">Select Dish:</label>
+                    <select id="dish" name="dish" required>
+                        <option value="dish1">Gheur</option>
+                        <option value="dish2">Maani</option>
+                        <option value="dish3">Kimb</option>
+                        <option value="dish4">Sund</option>
+                    </select>
+                </div>
+
+                <!-- Quantity Selection -->
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                </div>
+
+                <!-- Additional Notes -->
+                <div class="form-group">
+                    <label for="notes">Additional Notes:</label>
+                    <textarea id="notes" name="notes"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dogri Zaika. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+/* General styling for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #1a1a1a; /* Dark Black */
+    color: #fff; /* White */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4CAF50; /* Green */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff; /* White */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #4CAF50; /* Green */
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1a1a1a; /* Dark Black */
+    color: #fff; /* White */
+}
+
+section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #4CAF50; /* Green */
+}
+
+section p {
+    font-size: 1.2em;
+    color: #ccc; /* Light Gray */
+}
+
+/* Menu section styling */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #333; /* Black */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item img.menu-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.menu-description {
+    text-align: left;
+    max-width: 800px;
+}
+
+.menu-description h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.8em;
+    color: #4CAF50; /* Green */
+}
+
+.menu-description p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ccc; /* Light Gray */
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #4CAF50; /* Green */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light Gray */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #333; /* Black */
+    color: #fff; /* White */
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button[type="submit"] {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff; /* White */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker Green */
+}
+
+/* Footer styling */
+footer {
+    background-color: #1a1a1a; /* Dark Black */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Specific section background colors */
+#menu, #about, #contact, #order {
+    background-color: #333; /* Black */
+    color: #fff; /* White */
+}
+
+/* Link color */
+a {
+    color: #4CAF50; /* Green */
+}
+
+a:hover {
+    color: #fff; /* White */
+}
